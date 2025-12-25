@@ -1,0 +1,7 @@
+output "storage_container_name" {
+  value = azurerm_storage_container.this.name
+}
+
+output "storage_container_id" {
+  value = azurerm_storage_container.this.id
+}

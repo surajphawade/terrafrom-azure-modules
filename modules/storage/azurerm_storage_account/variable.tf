@@ -1,10 +1,10 @@
 variable "name" {
-  description = "Virtual Network Name"
+  description = "Storage Account name"
   type        = string
 }
 
 variable "rg_name" {
-  description = "Resource group where VNet will be created"
+  description = "Resource group name"
   type        = string
 }
 
