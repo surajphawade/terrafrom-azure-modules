@@ -5,7 +5,7 @@ resource "azurerm_key_vault_key" "this" {
   key_size     = var.key_size
 
   key_opts = var.key_opts
-
+ tags = var.tags
   rotation_policy {
     automatic {
       time_before_expiry = var.time_before_expiry

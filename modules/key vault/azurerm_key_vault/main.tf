@@ -9,4 +9,5 @@ resource "azurerm_key_vault" "this" {
   purge_protection_enabled    = var.purge_protection_enabled
 
   sku_name = var.sku_name
+  tags = var.tags
 }
